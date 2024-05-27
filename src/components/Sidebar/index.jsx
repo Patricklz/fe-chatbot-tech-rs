@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles/main.css";
-import avatar from "assets/images/avatardefault_92824.png";
+import avatar from "assets/images/nadIA.png";
 import Icon from "components/Icon";
 import Alert from "./Alert";
 import Contact from "./Contact";

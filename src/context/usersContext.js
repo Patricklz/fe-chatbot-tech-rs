@@ -35,9 +35,10 @@ const UsersProvider = ({ children }) => {
 
 		setUsers((users) => {
 			const { userId, response } = data;
-console.log(data)
 			let userIndex = users.findIndex((user) => user.id === userId);
 			const usersCopy = JSON.parse(JSON.stringify(users));
+
+			console.log(response)
 			const newMsgObject = {
 				content: response,
 				sender: userId,
